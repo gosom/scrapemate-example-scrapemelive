@@ -11,3 +11,5 @@ In particular for each product we want to extract in a csv file the following:
 - sku
 - categories (comma separated)
 - tags (comma separated)
+
+blog post: https://blog.gkomninos.com/getting-started-with-web-scraping-using-golang-and-scrapemate
