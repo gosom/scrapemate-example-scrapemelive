@@ -58,10 +58,6 @@ func run() error {
 		return err
 	}
 
-	if err != nil {
-		return err
-	}
-
 	mate, err := scrapemate.New(
 		scrapemate.WithContext(ctx, cancel),
 		scrapemate.WithJobProvider(provider),
